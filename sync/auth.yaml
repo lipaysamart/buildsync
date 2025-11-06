@@ -1,0 +1,6 @@
+registry.cn-shenzhen.aliyuncs.com:
+  password: ${ACR_PASSWORD}
+  username: lipaysam
+docker.io:
+  password: ${HUB_TOKEN}
+  username: lipaysam

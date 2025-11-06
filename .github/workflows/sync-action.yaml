@@ -1,0 +1,28 @@
+name: Sync images # 工作流程的名称
+
+on:
+  workflow_dispatch: # 当手动触发工作流程时运行
+  # schedule:
+  #   - cron: "0 23 * * 5"
+  push:
+    branches:
+      - main
+
+jobs:
+  sync-images:
+    runs-on: ubuntu-latest # 在最新的Ubuntu环境上运行作业
+
+    steps:
+      - name: Checkout # 步骤名称：检出代码
+        uses: actions/checkout@v3 # 使用actions/checkout动作来检出代码
+
+      - uses: hhyasdf/image-sync-action@v1.1 # 使用hhyasdf/image-sync-action v1.1操作
+        with:
+          auth_file: ./sync/auth.yaml # 使用的认证文件路径
+          images_file: ./sync/images.yaml # nginx镜像文件路径
+          version: latest # 使用的版本
+          proc: 20 # 进程数
+          retries: 2 # 重试次数
+        env:
+          ACR_PASSWORD: ${{ secrets.ACR_PASSWORD }} # ACR密码作为环境变量传递
+          HUB_TOKEN: ${{ secrets.HUB_TOKEN }} # Hub令牌作为环境变量传递
