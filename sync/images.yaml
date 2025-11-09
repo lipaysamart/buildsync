@@ -208,5 +208,7 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/meilisearch"
 # docker.io/triliumnext/trilium:v0.99.3,stable:
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/trilium'
-ghcr.io/jimmidyson/configmap-reload:v0.15.0:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
+# ghcr.io/jimmidyson/configmap-reload:v0.15.0:
+# - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
+cr.fluentbit.io/fluent/fluent-bit:4.1.0:
+    - "registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit"
