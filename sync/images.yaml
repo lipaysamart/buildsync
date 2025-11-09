@@ -76,8 +76,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/grafana"
 # docker.io/sonatype/nexus3:3.69.0,latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nexus3"
-docker.io/vaultwarden/server:latest,1.30.5-alpine:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/vaultwarden'
+# docker.io/vaultwarden/server:latest,1.30.5-alpine:
+# - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/vaultwarden'
 # docker.io/milvusdb/milvus:v2.2.9:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/milvus"
 # docker.io/milvusdb/milvus-config-tool:v0.1.1:
@@ -206,5 +206,7 @@ docker.io/vaultwarden/server:latest,1.30.5-alpine:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/linkwarden"
 # docker.io/getmeili/meilisearch:v1.12.8:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/meilisearch"
-docker.io/triliumnext/trilium:v0.99.3,stable:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/trilium'
+# docker.io/triliumnext/trilium:v0.99.3,stable:
+# - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/trilium'
+ghcr.io/jimmidyson/configmap-reload:v0.15.0:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
