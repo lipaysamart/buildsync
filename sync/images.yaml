@@ -210,5 +210,5 @@
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/trilium'
 # ghcr.io/jimmidyson/configmap-reload:v0.15.0:
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
-cr.fluentbit.io/fluent/fluent-bit:4.1.0:
-    - "registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit"
+cr.fluentbit.io/fluent/fluent-bit:4.1.0,4.1.0-debug:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit'
