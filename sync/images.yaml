@@ -212,5 +212,7 @@
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
 # cr.fluentbit.io/fluent/fluent-bit:4.1.0,4.1.0-debug:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit'
-docker.io/nattertool/natter:2.2.1:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/natter"
+# docker.io/nattertool/natter:2.2.1:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/natter"
+docker.io/bluenviron/mediamtx:1:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
