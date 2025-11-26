@@ -214,5 +214,7 @@
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit'
 # docker.io/nattertool/natter:2.2.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/natter"
-docker.io/bluenviron/mediamtx:1:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
+# docker.io/bluenviron/mediamtx:1:
+# - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
+ghcr.io/headlamp-k8s/headlamp:v0.37.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
