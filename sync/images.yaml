@@ -14,20 +14,12 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/debian"
 # docker.io/library/alpine:edge,latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/alpine"
-# docker.io/library/maven:latest:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/maven"
 # docker.io/library/golang:1.21,1.22,1.21-alpine,1.22-alpine:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/golang"
 # gcr.io/kaniko-project/executor:debug:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/kaniko"
 # docker.io/jeessy/ddns-go:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/ddns-go"
-# docker.io/apache/apisix:3.9.1-debian:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/apisix:3.9.1-debian"
-# docker.io/apache/apisix-dashboard:3.0.0-alpine:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/apisix-dashboard:3.0.0-alpine"
-# docker.io/apache/apisix-ingress-controller:1.7.1:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/apisix-ingress-controller:1.7.1"
 # docker.io/bitnami/etcd:3.5.7-debian-11-r14:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/etcd:3.5.7-debian-11-r14"
 # docker.io/enwaiax/x-ui:latest:
@@ -50,10 +42,6 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/alist"
 # docker.io/sonatype/nexus3:3.69.0,latest:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nexus3"
-# docker.io/gitlab/gitlab-ee:16.11.0-ee.0,15.11.13-ee.0,13.12.15-ee.0,latest:
-# - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitlab"
-# docker.io/gitlab/gitlab-runner:alpine,bleeding,latest,v16.11.0,alpine-v16.11.0,ubuntu-v16.11.0,alpine3.12-v15.11.0,v15.11.0,ubuntu-v15.11.0,v13.12.0,alpine-v13.12.0,ubuntu-v13.12.0:
-# - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitlab-runner"
 # docker.io/prom/blackbox-exporter:v0.24.0,v0.25.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/blackbox-exporter"
 # docker.io/prom/alertmanager:v0.27.0:
@@ -78,22 +66,6 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nexus3"
 # docker.io/vaultwarden/server:latest,1.30.5-alpine:
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/vaultwarden'
-# docker.io/milvusdb/milvus:v2.2.9:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/milvus"
-# docker.io/milvusdb/milvus-config-tool:v0.1.1:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/milvus-config-tool"
-# docker.io/zilliz/attu:v2.2.4:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/attu"
-# docker.io/zilliz/milvus_cli:latest:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/milvus_cli"
-# docker.io/minio/minio:RELEASE.2023-03-20T20-16-18Z:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/minio"
-# docker.io/minio/mc:RELEASE.2024-06-10T16-44-15Z,RELEASE.2023-03-20T20-16-18Z:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mc"
-# docker.io/milvusdb/etcd:3.5.5-r2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/etcd"
-# docker.io/apachepulsar/pulsar:2.8.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/pulsar"
 # docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/flannel-cni-plugin"
 # docker.io/flannel/flannel:v0.25.4:
@@ -124,8 +96,8 @@
 #   - registry.cn-shenzhen.aliyuncs.com/lipaysam/ollama
 # ghcr.io/open-webui/open-webui:main,ollama:
 #  - registry.cn-shenzhen.aliyuncs.com/lipaysam/open-webui
-# docker.io/bitnami/redis:7.0.5-debian-11-r25:
-#   - registry.cn-shenzhen.aliyuncs.com/lipaysam/redis
+docker.io/bitnami/redis:7.0.5-debian-11-r25,8.2.1-debian-12-r0:
+  - registry.cn-shenzhen.aliyuncs.com/lipaysam/redis
 # registry.k8s.io/ingress-nginx/controller:v1.9.6,v1.11.1:
 #   - registry.cn-shenzhen.aliyuncs.com/lipaysam/ingress-nginx-controller
 # registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.1:
@@ -136,12 +108,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/blazehttp"
 # docker.io/frooodle/s-pdf:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/s-pdf"
-# docker.io/library/wordpress:6.4.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/wordpress"
 # docker.io/prometheuscommunity/pushprox:v0.2.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/pushprox"
-# docker.io/budibase/budibase:latest:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/budibase"
 # docker.io/library/docker:dind:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/docker"
 # docker.io/gittools/gitversion:6.0.2:
@@ -152,18 +120,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
 # cr.fluentbit.io/fluent/fluent-bit:3.0.4:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit"
-# docker.io/bunkerity/bunkerweb:1.5.10:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/bunkerweb"
-# docker.io/bunkerity/bunkerweb-scheduler:1.5.10:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/bunkerweb-scheduler"
-# docker.io/tecnativa/docker-socket-proxy:nightly:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/docker-socket-proxy"
-# docker.io/bunkerity/bunkerweb-ui:1.5.10:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/bunkerweb-ui"
 # docker.io/library/mariadb:10.10:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mariadb"
-# docker.io/bunkerity/bunkerweb-coraza:latest:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/bunkerweb-coraza"
 # quay.io/argoproj/argocd:v2.12.3:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/argocd"
 # ghcr.io/dexidp/dex:v2.38.0:
@@ -216,5 +174,7 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/natter"
 # docker.io/bluenviron/mediamtx:1:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
-ghcr.io/headlamp-k8s/headlamp:v0.37.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
+# ghcr.io/headlamp-k8s/headlamp:v0.37.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
+# docker.io/langgenius/dify-api:0.6.9:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
