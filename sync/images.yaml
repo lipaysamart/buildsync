@@ -4,8 +4,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mysql"
 # docker.io/library/redis:6.0,7.0,alpine:
 #     - "registry.cn-shenzhen.aliyuncs.com/lipaysam/redis"
-# docker.io/library/postgres:16,15,14,13,12:
-# - "registry.cn-shenzhen.aliyuncs.com/lipaysam/postgres"
+docker.io/library/postgres:18,17,16,17-alpine,18-alpine:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/postgres"
 # docker.io/library/busybox:stable,latest,1.36.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/busybox"
 # docker.io/library/debian:stable,sid,latest:
@@ -170,13 +170,13 @@
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
 # ghcr.io/headlamp-k8s/headlamp:v0.37.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
-docker.io/langgenius/dify-api:1.9.1:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
-docker.io/langgenius/dify-plugin-daemon:0.1.0-local:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
-docker.io/ubuntu/squid:latest:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/squid"
-docker.io/semitechnologies/weaviate:1.19.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/weaviate"
-docker.io/langgenius/dify-sandbox:0.2.12:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
+# docker.io/langgenius/dify-api:1.9.1:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
+# docker.io/langgenius/dify-plugin-daemon:0.1.0-local:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
+# docker.io/ubuntu/squid:latest:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/squid"
+# docker.io/semitechnologies/weaviate:1.19.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/weaviate"
+# docker.io/langgenius/dify-sandbox:0.2.12:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
