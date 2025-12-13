@@ -2,10 +2,10 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nginx:1.21,1.22,1.23,1.24,1.25"
 # docker.io/library/mysql:5.7,8.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mysql"
-docker.io/library/redis:8,7,6,7-alpine,6-alpine:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/redis"
-docker.io/library/postgres:18,17,16,15,15-alpine,17-alpine,18-alpine:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/postgres"
+# docker.io/library/redis:8,7,6,7-alpine,6-alpine:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/redis"
+# docker.io/library/postgres:18,17,16,15,15-alpine,17-alpine,18-alpine:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/postgres"
 # docker.io/library/busybox:stable,latest,1.36.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/busybox"
 # docker.io/library/debian:stable,sid,latest:
@@ -180,3 +180,5 @@ ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/weaviate"
 # docker.io/langgenius/dify-sandbox:0.2.12:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
+ghcr.io/corentinth/it-tools:latest:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/it-tools"
