@@ -4,8 +4,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mysql"
 # docker.io/library/redis:6.0,7.0,alpine:
 #     - "registry.cn-shenzhen.aliyuncs.com/lipaysam/redis"
-docker.io/library/postgres:18,17,16,17-alpine,18-alpine:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/postgres"
+# docker.io/library/postgres:18,17,16,17-alpine,18-alpine:
+# - "registry.cn-shenzhen.aliyuncs.com/lipaysam/postgres"
 # docker.io/library/busybox:stable,latest,1.36.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/busybox"
 # docker.io/library/debian:stable,sid,latest:
@@ -154,8 +154,8 @@ docker.io/library/postgres:18,17,16,17-alpine,18-alpine:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/uptime-kuma"
 # docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/stirling-pdf"
-# ghcr.io/linkwarden/linkwarden:v2.11.7:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/linkwarden"
+ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/linkwarden"
 # docker.io/getmeili/meilisearch:v1.12.8:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/meilisearch"
 # docker.io/triliumnext/trilium:v0.99.3,stable:
