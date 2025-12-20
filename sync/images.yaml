@@ -172,8 +172,8 @@ ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
 # docker.io/langgenius/dify-api:1.9.1,1.11.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
-docker.io/langgenius/dify-web:1.9.1,1.11.1:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web"
+# docker.io/langgenius/dify-web:1.9.1,1.11.1:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web"
 # docker.io/langgenius/dify-plugin-daemon:0.3.0-local,0.5.1-local:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
 # docker.io/ubuntu/squid:latest:
@@ -184,3 +184,5 @@ docker.io/langgenius/dify-web:1.9.1,1.11.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
 # ghcr.io/corentinth/it-tools:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/it-tools"
+docker.io/freshrss/freshrss:1.27.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/freshrss"
