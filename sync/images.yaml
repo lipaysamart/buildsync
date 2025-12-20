@@ -184,5 +184,5 @@ ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
 # ghcr.io/corentinth/it-tools:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/it-tools"
-docker.io/freshrss/freshrss:1.27.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/freshrss"
+ghcr.io/0x2e/fusion:0.9.8:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/fusion"
