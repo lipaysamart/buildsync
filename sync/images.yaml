@@ -120,8 +120,6 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/argocd"
 # ghcr.io/dexidp/dex:v2.38.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dex"
-# gcr.io/heptio-images/ks-guestbook-demo:0.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/ks-guestbook-demo"
 # docker.io/semaphoreui/runner:latest,v2.10.32,v2.10.35:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/semaphore-runner"
 # docker.io/coturn/coturn:latest:
@@ -154,8 +152,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/uptime-kuma"
 # docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/stirling-pdf"
-ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/linkwarden"
+# ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/linkwarden"
 # docker.io/getmeili/meilisearch:v1.12.8:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/meilisearch"
 # docker.io/triliumnext/trilium:v0.99.3,stable:
@@ -164,8 +162,6 @@ ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
 # cr.fluentbit.io/fluent/fluent-bit:4.1.0,4.1.0-debug:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit'
-# docker.io/nattertool/natter:2.2.1:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/natter"
 # docker.io/bluenviron/mediamtx:1:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
 # ghcr.io/headlamp-k8s/headlamp:v0.37.0:
@@ -184,5 +180,7 @@ ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
 # ghcr.io/corentinth/it-tools:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/it-tools"
-ghcr.io/0x2e/fusion:0.9.8:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/fusion"
+docker.io/wantcat/trendradar:4.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar"
+docker.io/wantcat/trendradar-mcp:1.1:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar-mcp"
