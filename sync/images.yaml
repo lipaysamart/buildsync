@@ -180,7 +180,9 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
 # ghcr.io/corentinth/it-tools:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/it-tools"
-docker.io/wantcat/trendradar:4.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar"
-docker.io/wantcat/trendradar-mcp:1.1:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar-mcp"
+# docker.io/wantcat/trendradar:4.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar"
+# docker.io/wantcat/trendradar-mcp:1.1:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar-mcp"
+ghcr.io/external-secrets/external-secrets:main,v1.2.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/external-secrets"
