@@ -86,8 +86,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trivy-operator"
 # ghcr.io/aquasecurity/trivy:0.50.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trivy"
-# docker.io/dpage/pgadmin4:8.9:
-# - registry.cn-shenzhen.aliyuncs.com/lipaysam/pgadmin4
+docker.io/dpage/pgadmin4:8.9,9:
+  - registry.cn-shenzhen.aliyuncs.com/lipaysam/pgadmin4
 # docker.io/ollama/ollama:0.2.5:
 #   - registry.cn-shenzhen.aliyuncs.com/lipaysam/ollama
 # ghcr.io/open-webui/open-webui:main,ollama:
