@@ -66,20 +66,20 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/flannel-cni-plugin"
 # docker.io/flannel/flannel:v0.25.4:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/flannel"
-# registry.k8s.io/sig-storage/nfsplugin:v4.6.0,v4.11.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nfsplugin"
-# registry.k8s.io/sig-storage/csi-provisioner:v4.0.0,v5.2.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-provisioner"
-# registry.k8s.io/sig-storage/csi-resizer:v1.13.1:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-resizer"
-# registry.k8s.io/sig-storage/csi-snapshotter:v6.3.3,v8.2.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-snapshotter"
-# registry.k8s.io/sig-storage/livenessprobe:v2.12.0,v2.15.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/livenessprobe"
-# registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.10.0,v2.13.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-node-driver-registrar"
-# registry.k8s.io/sig-storage/snapshot-controller:v6.3.3,v8.2.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/snapshot-controller"
+registry.k8s.io/sig-storage/nfsplugin:v4.13.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nfsplugin"
+registry.k8s.io/sig-storage/csi-provisioner:v6.1.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-provisioner"
+registry.k8s.io/sig-storage/csi-resizer:v2.0.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-resizer"
+registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-snapshotter"
+registry.k8s.io/sig-storage/livenessprobe:v2.17.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/livenessprobe"
+registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-node-driver-registrar"
+registry.k8s.io/sig-storage/snapshot-controller:v8.4.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/snapshot-controller"
 # ghcr.io/aquasecurity/node-collector:0.1.4:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/node-collector"
 # ghcr.io/aquasecurity/trivy-operator:0.20.1:
