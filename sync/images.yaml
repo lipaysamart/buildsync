@@ -30,8 +30,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-coredns-coredns"
 # docker.io/rancher/local-path-provisioner:v0.0.23,v0.0.30:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/local-path-provisioner"
-# docker.io/rancher/mirrored-metrics-server:v0.6.2,v0.7.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-metrics-server"
+docker.io/rancher/mirrored-metrics-server:v0.6.2,v0.7.2,v0.8.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-metrics-server"
 # docker.io/rancher/mirrored-pause:3.6:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-pause"
 # docker.io/xhofe/alist:v3.28.0,latest:
