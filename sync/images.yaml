@@ -30,8 +30,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-coredns-coredns"
 # docker.io/rancher/local-path-provisioner:v0.0.23,v0.0.30:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/local-path-provisioner"
-docker.io/rancher/mirrored-metrics-server:v0.6.2,v0.7.2,v0.8.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-metrics-server"
+# docker.io/rancher/mirrored-metrics-server:v0.6.2,v0.7.2:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-metrics-server"
 # docker.io/rancher/mirrored-pause:3.6:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mirrored-pause"
 # docker.io/xhofe/alist:v3.28.0,latest:
@@ -108,8 +108,8 @@ docker.io/dpage/pgadmin4:8.9,9:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/docker"
 # docker.io/gittools/gitversion:6.0.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitversion"
-# registry.k8s.io/metrics-server/metrics-server:v0.7.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/metrics-server"
+registry.k8s.io/metrics-server/metrics-server:v0.7.2,v0.8.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/metrics-server"
 # victoriametrics/victoria-logs:v0.28.0-victorialogs:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
 # cr.fluentbit.io/fluent/fluent-bit:3.0.4:
