@@ -184,5 +184,7 @@ docker.io/langgenius/dify-plugin-daemon:0.5.3-local:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar"
 # docker.io/wantcat/trendradar-mcp:1.1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar-mcp"
-ghcr.io/external-secrets/external-secrets:main,v1.2.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/external-secrets"
+# ghcr.io/external-secrets/external-secrets:main,v1.2.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/external-secrets"
+ghcr.io/openclaw/openclaw:main-slim,2026.3.11:
+  - registry.cn-shenzhen.aliyuncs.com/lipaysam/openclaw
