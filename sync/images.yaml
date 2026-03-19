@@ -66,20 +66,20 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/flannel-cni-plugin"
 # docker.io/flannel/flannel:v0.25.4:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/flannel"
-registry.k8s.io/sig-storage/nfsplugin:v4.13.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nfsplugin"
-registry.k8s.io/sig-storage/csi-provisioner:v6.1.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-provisioner"
-registry.k8s.io/sig-storage/csi-resizer:v2.0.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-resizer"
-registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-snapshotter"
-registry.k8s.io/sig-storage/livenessprobe:v2.17.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/livenessprobe"
-registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-node-driver-registrar"
-registry.k8s.io/sig-storage/snapshot-controller:v8.4.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/snapshot-controller"
+# registry.k8s.io/sig-storage/nfsplugin:v4.13.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nfsplugin"
+# registry.k8s.io/sig-storage/csi-provisioner:v6.1.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-provisioner"
+# registry.k8s.io/sig-storage/csi-resizer:v2.0.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-resizer"
+# registry.k8s.io/sig-storage/csi-snapshotter:v8.4.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-snapshotter"
+# registry.k8s.io/sig-storage/livenessprobe:v2.17.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/livenessprobe"
+# registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.15.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/csi-node-driver-registrar"
+# registry.k8s.io/sig-storage/snapshot-controller:v8.4.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/snapshot-controller"
 # ghcr.io/aquasecurity/node-collector:0.1.4:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/node-collector"
 # ghcr.io/aquasecurity/trivy-operator:0.20.1:
@@ -108,8 +108,8 @@ docker.io/dpage/pgadmin4:8.9,9:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/docker"
 # docker.io/gittools/gitversion:6.0.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitversion"
-registry.k8s.io/metrics-server/metrics-server:v0.7.2,v0.8.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/metrics-server"
+# registry.k8s.io/metrics-server/metrics-server:v0.7.2,v0.8.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/metrics-server"
 # victoriametrics/victoria-logs:v0.28.0-victorialogs:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
 # cr.fluentbit.io/fluent/fluent-bit:3.0.4:
@@ -166,11 +166,11 @@ registry.k8s.io/metrics-server/metrics-server:v0.7.2,v0.8.0:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
 # ghcr.io/headlamp-k8s/headlamp:v0.37.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
-docker.io/langgenius/dify-api:1.12.1:
+docker.io/langgenius/dify-api:1.13.2:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
-docker.io/langgenius/dify-web:1.12.1:
+docker.io/langgenius/dify-web:1.13.2:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web"
-docker.io/langgenius/dify-plugin-daemon:0.5.3-local:
+docker.io/langgenius/dify-plugin-daemon:0.5.4-local:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
 # docker.io/ubuntu/squid:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/squid"
@@ -186,5 +186,5 @@ docker.io/langgenius/dify-plugin-daemon:0.5.3-local:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar-mcp"
 # ghcr.io/external-secrets/external-secrets:main,v1.2.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/external-secrets"
-ghcr.io/openclaw/openclaw:main-slim,2026.3.11:
-  - registry.cn-shenzhen.aliyuncs.com/lipaysam/openclaw
+# ghcr.io/openclaw/openclaw:main-slim,2026.3.11:
+#   - registry.cn-shenzhen.aliyuncs.com/lipaysam/openclaw
