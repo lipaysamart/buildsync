@@ -142,14 +142,6 @@
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/argo-rollouts'
 # docker.io/ealen/echo-server:0.8.1,0.8.2,0.9.1,0.9.2:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/echo-server"
-# docker.io/filebrowser/filebrowser:v2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/filebrowser"
-# docker.io/deluan/navidrome:0.53.2,0.54.3:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/navidrome"
-# docker.io/soulteary/certs-maker:v3.6.1:
-# - "registry.cn-shenzhen.aliyuncs.com/lipaysam/certs-maker"
-# docker.io/louislam/uptime-kuma:1:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/uptime-kuma"
 # docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/stirling-pdf"
 # ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
@@ -180,13 +172,10 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
 # ghcr.io/corentinth/it-tools:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/it-tools"
-# docker.io/wantcat/trendradar:4.0:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar"
-# docker.io/wantcat/trendradar-mcp:1.1:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/trendradar-mcp"
 # ghcr.io/external-secrets/external-secrets:main,v1.2.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/external-secrets"
 # ghcr.io/openclaw/openclaw:main-slim,2026.3.11:
 #   - registry.cn-shenzhen.aliyuncs.com/lipaysam/openclaw
-docker.io/mattermost/mattermost-operator:v1.24.0:
-  - registry.cn-shenzhen.aliyuncs.com/lipaysam/mattermost-operator
+docker.io/mattermost/mattermost-enterprise-edition:release-11:
+  - registry.cn-shenzhen.aliyuncs.com/lipaysam/mattermost-enterprise-edition
+
