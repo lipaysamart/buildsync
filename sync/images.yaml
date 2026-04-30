@@ -164,6 +164,8 @@ docker.io/langgenius/dify-web:1.14.0:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web"
 docker.io/langgenius/dify-plugin-daemon:0.6.0-local:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
+docker.io/langgenius/dify-sandbox:0.2.15:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-sandbox"
 # docker.io/ubuntu/squid:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/squid"
 # docker.io/semitechnologies/weaviate:1.19.0,1.27.0:
