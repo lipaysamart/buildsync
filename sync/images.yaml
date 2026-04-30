@@ -158,12 +158,12 @@
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
 # ghcr.io/headlamp-k8s/headlamp:v0.37.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/headlamp"
-# docker.io/langgenius/dify-api:1.13.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
-# docker.io/langgenius/dify-web:1.13.2:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web"
-# docker.io/langgenius/dify-plugin-daemon:0.5.4-local:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
+docker.io/langgenius/dify-api:1.14.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api"
+docker.io/langgenius/dify-web:1.14.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web"
+docker.io/langgenius/dify-plugin-daemon:0.6.0-local:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon"
 # docker.io/ubuntu/squid:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/squid"
 # docker.io/semitechnologies/weaviate:1.19.0,1.27.0:
