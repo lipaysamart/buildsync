@@ -144,6 +144,8 @@ docker.io/vaultwarden/server:1.36.0:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/echo-server"
 # docker.stirlingpdf.com/stirlingtools/stirling-pdf:latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/stirling-pdf"
+docker.io/stirlingtools/stirling-pdf:latest-fat,latest-fat-security:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/stirling-pdf'
 # ghcr.io/linkwarden/linkwarden:v2.11.7,v2.13.2:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/linkwarden"
 # docker.io/getmeili/meilisearch:v1.12.8:
