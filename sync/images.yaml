@@ -189,3 +189,7 @@ docker.io/langgenius/dify-web:1.14.2:
 docker.io/langgenius/dify-plugin-daemon:0.6.1-local:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
+# DeepTutor - agent-native learning workspace
+ghcr.io/hkuds/deeptutor:latest,v1.5.2:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
+
