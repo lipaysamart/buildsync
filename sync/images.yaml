@@ -60,8 +60,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/grafana"
 # docker.io/sonatype/nexus3:3.69.0,latest:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nexus3"
-docker.io/vaultwarden/server:1.36.0,1.37.1:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/vaultwarden'
+# docker.io/vaultwarden/server:1.36.0,1.37.1:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/vaultwarden'
 # docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel1:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/flannel-cni-plugin"
 # docker.io/flannel/flannel:v0.25.4:
@@ -189,8 +189,7 @@ docker.io/vaultwarden/server:1.36.0,1.37.1:
 # docker.io/langgenius/dify-plugin-daemon:0.6.3-local:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
-# DeepTutor - agent-native learning workspace
-ghcr.io/hkuds/deeptutor:latest,1.5.2,1.5.5,1.5.13:
+ghcr.io/hkuds/deeptutor:1.5.13:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
