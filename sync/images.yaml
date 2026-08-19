@@ -190,8 +190,8 @@ docker.io/vaultwarden/server:1.36.0,1.37.1:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
 # DeepTutor - agent-native learning workspace
-# ghcr.io/hkuds/deeptutor:latest,1.5.2,1.5.5:
-#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
+ghcr.io/hkuds/deeptutor:latest,1.5.2,1.5.5,1.5.13:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
