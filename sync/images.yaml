@@ -190,7 +190,7 @@
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
 ghcr.io/hkuds/deeptutor:1.5.14@sha256:910c3353b32202e04e9f2ef3ed4bb188a9c2cdd40be390b2cfdea3a2846702bc:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.5.14'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
