@@ -110,8 +110,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitversion"
 # registry.k8s.io/metrics-server/metrics-server:v0.7.2,v0.8.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/metrics-server"
-# victoriametrics/victoria-logs:v0.28.0-victorialogs:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
+docker.io/victoriametrics/victoria-logs:v1.52.0:
+  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
 # docker.io/library/mariadb:10.10:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mariadb"
 # quay.io/argoproj/argocd:v2.12.3:
