@@ -189,6 +189,8 @@ cr.fluentbit.io/fluent/fluent-bit:5.1.1,5.1.1-debug:
 
 ghcr.io/hkuds/deeptutor:1.5.17@sha256:17f894fbdb563f974f9c26ebb0598070ae3dfad5d0093b3067792be8511c020f:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.5.17'
+ghcr.io/hkuds/deeptutor:1.6.0@sha256:bd2b79dbe0b66b5c6ab12f78db2da27f78ca77b72e373b5013bf9397a811d9a9:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.0'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
