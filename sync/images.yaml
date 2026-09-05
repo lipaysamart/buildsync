@@ -187,8 +187,8 @@ cr.fluentbit.io/fluent/fluent-bit:5.1.1,5.1.1-debug:
 # docker.io/langgenius/dify-plugin-daemon:0.6.3-local:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
-ghcr.io/hkuds/deeptutor:1.6.2@sha256:89d092edec5ba4bee55274a304344a4ec1937a8be9b89313cdb0e0b33a44c3c3:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.2'
+ghcr.io/hkuds/deeptutor:1.6.4@sha256:41f7c19598e1ca54e2b8397dbff385a89d0b599bd6bca886d4def5efcb69c4bc:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.4'
 docker.io/gitea/gitea:1.27:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitea:1.27"
 
