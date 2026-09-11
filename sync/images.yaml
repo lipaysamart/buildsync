@@ -189,6 +189,8 @@ cr.fluentbit.io/fluent/fluent-bit:5.1.1,5.1.1-debug:
 
 ghcr.io/hkuds/deeptutor:1.6.4@sha256:41f7c19598e1ca54e2b8397dbff385a89d0b599bd6bca886d4def5efcb69c4bc:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.4'
+ghcr.io/hkuds/deeptutor:1.6.7@sha256:7fca4b8c2684a10e1e19935db9fc4194d0600d9de7418f3f5c5659e357c07556:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.7'
 docker.io/gitea/gitea:1.27:
   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitea:1.27"
 
