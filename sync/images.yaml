@@ -110,8 +110,8 @@
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitversion"
 # registry.k8s.io/metrics-server/metrics-server:v0.7.2,v0.8.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/metrics-server"
-docker.io/victoriametrics/victoria-logs:v1.52.0:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
+# docker.io/victoriametrics/victoria-logs:v1.52.0:
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/victoria-logs"
 # docker.io/library/mariadb:10.10:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mariadb"
 # quay.io/argoproj/argocd:v2.12.3:
@@ -152,8 +152,8 @@ docker.io/victoriametrics/victoria-logs:v1.52.0:
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/trilium'
 # ghcr.io/jimmidyson/configmap-reload:v0.15.0:
 # - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/configmap-reload'
-cr.fluentbit.io/fluent/fluent-bit:5.1.1,5.1.1-debug:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit'
+# cr.fluentbit.io/fluent/fluent-bit:5.1.1,5.1.1-debug:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/fluent-bit'
 # docker.io/bluenviron/mediamtx:1:
 # - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mediamtx"
 # ghcr.io/headlamp-k8s/headlamp:v0.37.0:
@@ -187,16 +187,14 @@ cr.fluentbit.io/fluent/fluent-bit:5.1.1,5.1.1-debug:
 # docker.io/langgenius/dify-plugin-daemon:0.6.3-local:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
-ghcr.io/hkuds/deeptutor:1.6.8@sha256:b0c714645543a3f69ca2317338be154fe5c24838858b23f61891e69fb056fba7:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.8'
-docker.io/gitea/gitea:1.27:
-  - "registry.cn-shenzhen.aliyuncs.com/lipaysam/gitea:1.27"
-docker.io/langgenius/dify-api:1.16.1:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api:1.16.1'
-docker.io/langgenius/dify-agent-backend:1.16.1:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-backend:1.16.1'
-docker.io/langgenius/dify-agent-local-sandbox:1.16.1:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox:1.16.1'
+# ghcr.io/hkuds/deeptutor:1.6.8@sha256:b0c714645543a3f69ca2317338be154fe5c24838858b23f61891e69fb056fba7:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.8'
+# docker.io/langgenius/dify-api:1.16.1:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api:1.16.1'
+# docker.io/langgenius/dify-agent-backend:1.16.1:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-backend:1.16.1'
+# docker.io/langgenius/dify-agent-local-sandbox:1.16.1:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox:1.16.1'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
