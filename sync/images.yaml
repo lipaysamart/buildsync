@@ -196,6 +196,9 @@
 # docker.io/langgenius/dify-agent-local-sandbox:1.16.1:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox:1.16.1'
 
+docker.io/langgenius/dify-web:1.16.1:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web:1.16.1'
+
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
 
