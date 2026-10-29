@@ -187,8 +187,8 @@
 # docker.io/langgenius/dify-plugin-daemon:0.6.3-local:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
-# ghcr.io/hkuds/deeptutor:1.6.8@sha256:b0c714645543a3f69ca2317338be154fe5c24838858b23f61891e69fb056fba7:
-#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.6.8'
+ghcr.io/hkuds/deeptutor:1.7.0@sha256:67ca40a5639b02b03f272f05c75ab907b8ef4fb24d6724009d31ff1ea996b7da:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.7.0'
 # docker.io/langgenius/dify-api:1.16.1:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api:1.16.1'
 # docker.io/langgenius/dify-agent-backend:1.16.1:
