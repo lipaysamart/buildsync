@@ -188,7 +188,7 @@
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
 ghcr.io/hkuds/deeptutor:1.7.0@sha256:67ca40a5639b02b03f272f05c75ab907b8ef4fb24d6724009d31ff1ea996b7da:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor:1.7.0'
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
 # docker.io/langgenius/dify-api:1.16.1:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api:1.16.1'
 # docker.io/langgenius/dify-agent-backend:1.16.1:
@@ -197,7 +197,7 @@ ghcr.io/hkuds/deeptutor:1.7.0@sha256:67ca40a5639b02b03f272f05c75ab907b8ef4fb24d6
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox:1.16.1'
 
 docker.io/langgenius/dify-web:1.16.1:
-  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web:1.16.1'
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
