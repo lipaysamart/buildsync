@@ -56,7 +56,49 @@ ghcr.io/org/app:v1.2.3,latest:
    本次变化的条目处于启用状态。
 6. `TARGET` 不带 tag，也不做重命名（见「条目格式」）。
 
+## ACR 限制：OCI attestation
+
+ACR（`registry.cn-shenzhen.aliyuncs.com`）拒绝 OCI index 里的 attestation manifest
+（引用 `application/vnd.oci.empty.v1+json`），报
+`denied: unknown manifest class for application/vnd.oci.empty.v1+json`，导致整个
+index 推不上去、不建 tag。上游用 buildx 默认 provenance/SBOM 时必然命中。
+
+处理：经用户同意后把源固定到单个平台 manifest digest，只同步该 manifest：
+
+```yaml
+docker.io/org/app:v1.2.3@sha256:<linux/amd64 digest>:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/app'
+```
+
+digest 用 `docker manifest inspect SOURCE:TAG` 取，选 `platform.architecture == amd64`
+且 `os == linux` 的条目。代价是丢多架构，必须先说明。
+
+### digest 固定源不会建 tag
+
+`tag@digest` 只按 digest 复制 manifest，**不会在 target 上创建 tag**：同步成功后
+`lipaysam/<repo>` 只有 digest，`tags/list` 里没有该版本（CI 变绿也不代表 tag 存在）。
+所以要么手工补 tag，要么明确告知用户只能按 digest 拉。
+
+补 tag（blob 与原 manifest 已在 ACR，只是新增一个 tag 引用；不要重新打包）：
+
+```bash
+D=sha256:<digest>; TAG=<version>
+# 1. 取源 manifest 原始字节，并校验 sha256 等于 $D
+curl -H "Authorization: Bearer $SRC_TOKEN" \
+  -H 'Accept: application/vnd.oci.image.manifest.v1+json' \
+  -o m.json "https://<src-registry>/v2/<org>/<repo>/manifests/$D"
+sha256sum m.json
+# 2. 以原 mediaType 推成 tag（ACR 需 pull,push scope token）
+curl -X PUT -H "Authorization: Bearer $ACR_TOKEN" \
+  -H 'Content-Type: application/vnd.oci.image.manifest.v1+json' \
+  --data-binary @m.json \
+  "https://registry.cn-shenzhen.aliyuncs.com/v2/lipaysam/<repo>/manifests/$TAG"
+```
+
+3. 校验 `GET /v2/lipaysam/<repo>/tags/list` 含该 tag，且 `GET …/manifests/<tag>` 的
+   `docker-content-digest` 等于 `$D`。
+
 ## 验证
 
 编辑后运行 `git diff --check`，并 review `git diff -- sync/images.yaml`，确认只有
-预期改动。
+预期改动。若本次含 `@sha256:` 源，额外确认 ACR `tags/list` 出现预期 tag。
