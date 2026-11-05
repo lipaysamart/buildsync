@@ -216,5 +216,5 @@ docker.io/langgenius/dify-plugin-daemon:0.6.10-local:
 # docker.io/library/mariadb:10.11:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/mariadb'
 
-docker.io/metacubex/mihomo:v1.19.33:
+docker.io/metacubex/mihomo:v1.19.33@sha256:009fda4eea6278fdbbdacee7a328ee5138a3649349a362efdb6d73711f181318:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/mihomo'
