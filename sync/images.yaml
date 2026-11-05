@@ -1,5 +1,5 @@
 # docker.io/library/nginx:1.21,1.22,1.23,1.24,1.25:
-#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nginx:1.21,1.22,1.23,1.24,1.25"
+#   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/nginx"
 # docker.io/library/mysql:5.7,8.0:
 #   - "registry.cn-shenzhen.aliyuncs.com/lipaysam/mysql"
 # docker.io/library/redis:8,7,6,7-alpine,6-alpine:
@@ -190,17 +190,31 @@
 ghcr.io/hkuds/deeptutor:1.7.1@sha256:40dc404e9ebb5bccb47a954f0cf4264325882595f72a9228fa2caa91d2349c27:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/deeptutor'
 # docker.io/langgenius/dify-api:1.16.1:
-#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api:1.16.1'
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api'
 # docker.io/langgenius/dify-agent-backend:1.16.1:
-#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-backend:1.16.1'
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-backend'
 # docker.io/langgenius/dify-agent-local-sandbox:1.16.1:
-#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox:1.16.1'
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox'
 
-docker.io/langgenius/dify-web:1.16.1:
+# docker.io/langgenius/dify-web:1.16.1:
+#   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web'
+
+docker.io/langgenius/dify-api:1.17.1:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-api'
+docker.io/langgenius/dify-web:1.17.1:
   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-web'
+docker.io/langgenius/dify-agent-backend:1.17.1:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-backend'
+docker.io/langgenius/dify-agent-local-sandbox:1.17.1:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-agent-local-sandbox'
+docker.io/langgenius/dify-plugin-daemon:0.6.10-local:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/dify-plugin-daemon'
 
 # docker.io/seafileltd/seafile-mc:13.0-latest:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/seafile-mc'
 
 # docker.io/library/mariadb:10.11:
 #   - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/mariadb'
+
+docker.io/metacubex/mihomo:v1.19.33:
+  - 'registry.cn-shenzhen.aliyuncs.com/lipaysam/mihomo'
